@@ -1,0 +1,9 @@
+{
+  "name": "speckle",
+  "version": "0.0.1",
+  "dependencies": {
+    "angular": "1.2.20",
+    "angular-sanitize": "1.2.20",
+    "showdown": "~0.3.1"
+  }
+}

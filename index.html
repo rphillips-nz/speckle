@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Speckle</title>
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Inconsolata:400">
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+
+<body ng-app="app" ng-controller="AppCtrl">
+	<textarea autofocus ng-model="markdown" placeholder="Type here!"></textarea>
+	<div markdown="markdown"></div>
+
+	<script src="bower_components/showdown/compressed/showdown.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
+	<script src="app.js"></script>
+</body>
+
+</html>
