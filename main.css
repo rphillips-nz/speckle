@@ -10,6 +10,8 @@ html, body {
 
 html, textarea {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	color: #222;
 	background-color: #f9f3ee;
 }
 
